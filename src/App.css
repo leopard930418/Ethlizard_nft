@@ -1,0 +1,251 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:visited {
+    text-decoration: none;
+}
+
+table th {
+    padding: 15px 0;
+}
+
+table tbody {
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px #666;
+}
+
+
+table tr td:first-child>div {
+    margin: 2px 0px 2px 25px;
+}
+
+
+table tr td:last-child>div {
+    margin: 2px 25px 2px 0px;
+}
+
+table tr td>div {
+    border-bottom: 1px solid rgba(142, 146, 184, 0.1);
+    margin: 0px 0px;
+    padding: 16px 0px;
+}
+
+table tr:last-child td>div {
+    border-bottom: none;
+}
+
+table tr th:first-child {
+    padding-left: 2rem;
+}
+
+table tbody {
+    background: linear-gradient(99.38deg, rgba(255, 255, 255, 0.04) 11.21%, rgba(255, 255, 255, 0.06) 64.14%)
+}
+
+.css-g9p13x-MuiButtonBase-root-MuiPaginationItem-root {
+    color: white !important;
+    font-size: 1rem !important;
+}
+
+/* 
+.slick-prev:before,
+.slick-next:before {
+    color: transparent !important;
+}
+
+.slick-next {
+    background: url("/src/assets/images/next-slide-btn.png") no-repeat center !important;
+}
+
+.slick-prev {
+    background: url("/src/assets/images/prev-slide-btn.png") no-repeat center !important;
+}
+
+.slick-next:hover {
+    background: url("/src/assets/images/next-slide-btn-blur.png") no-repeat center !important;
+}
+
+.slick-prev:hover {
+    background: url("/src/assets/images/prev-slide-btn-blur.png") no-repeat center !important;
+}
+
+.slick-next,
+.slick-prev {
+    background-size: contain !important;
+    height: 67px !important;
+    width: 28px !important;
+}
+
+
+.slick-prev:hover {
+    left: -40px !important;
+} */
+
+/* .slick-next:hover {
+    margin-left: 10px;
+} */
+
+/* .slick-next:hover, .slick-prev:hover {
+    background-size: contain !important;
+    height: 92px !important;
+    width: 56px !important;
+} */
+/* 
+.slick-prev:hover {
+    background-size: contain !important;
+    height: 92px !important;
+    width: 56px !important;
+}
+
+.slick-next:hover {
+    background-size: contain !important;
+    height: 67px !important;
+    width: 28px !important;
+}
+
+.slick-list {
+    margin-left: 4rem !important;
+} */
+
+.rs-slider-bar {
+    background-color: #2D304D !important;
+    height: 6px !important;
+    align-items: center;
+    display: flex;
+}
+
+.rs-slider-handle {
+    top: -9px !important;
+}
+
+.rs-slider-progress-bar {
+    /* filter: blur(4px); */
+    background-image: linear-gradient(to right, #19A0FA, #09EDE4);
+
+    height: 6px !important;
+}
+
+.rs-slider-handle:before {
+    height: 25px !important;
+    width: 13px !important;
+    background-size: contain;
+    background: url("/src/assets/images/slide-modifier.svg") no-repeat center;
+    border: none !important;
+    border-radius: 0% !important;
+}
+
+.rs-slider-handle:focus:before,
+.rs-slider-handle:active:before,
+.rs-slider-handle:visited:before,
+.rs-slider-handle:target:before,
+.rs-slider-handle:hover:before,
+.rs-slider-handle:focus::after,
+.rs-slider-handle:active:after,
+.rs-slider-handle:visited:after,
+.rs-slider-handle:target:after,
+.rs-slider-handle:hover:after {
+    box-shadow: none !important;
+
+}
+
+
+.rs-tooltip {
+    /* background-image: linear-gradient(to bottom, #000411, #0d3663); */
+    background-color: #017AFF;
+    max-width: none !important;
+    white-space: nowrap;
+    border-radius: 30px;
+}
+
+.donutchart-innertext {
+    fill: white
+}
+
+html {
+    background: url('/src/assets/images/background.svg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body {
+    background: transparent !important;
+}
+
+.css-1wemnuj-MuiBackdrop-root-MuiModal-backdrop {
+    background-color: #1E2135 !important;
+    opacity: 0.7 !important;
+}
+
+.css-hm7ex3-MuiBadge-badge {
+    top: 5px !important;
+    right: -2px !important
+}
+
+@media screen and (max-width:500px) {
+    .css-hm7ex3-MuiBadge-badge {
+        top: -1px !important
+    }
+}
+
+.css-1h9bl67-MuiTabs-indicator {
+    background-color: #71C78D !important;
+    height: 3px !important;
+}
+
+.css-heg063-MuiTabs-flexContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.css-pktjdn-MuiButtonBase-root-MuiTab-root {
+    text-transform: none !important;
+    font-family: Arial !important;
+}
+
+
+element.style {
+    --nth: 1;
+    --len: 1;
+}
+
+/* .Toastify__toast-theme--colored.Toastify__toast--default {
+    background: none  !important;
+} */
+
+/* .Toastify__close-button > svg {
+    fill: none !important;
+}
+.css-eglki6-MuiLinearProgress-root {
+    transform: rotate(180deg)
+} */
+
+.styles_scroll-to-top__2A70v {
+    top: 80%;
+    left: 85%;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
+
+.css-ctxmaj {
+    text-transform: none !important;
+    font-family: Arial !important;
+}
+
+.css-10pqr8i {
+    background-color: #71C78D !important;
+}
+
+.css-9emuhu-MuiPaper-root-MuiDrawer-paper {
+    background: url('/src/assets/images/background.svg') !important;
+}

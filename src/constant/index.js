@@ -1,0 +1,22 @@
+export const config = {
+    vaultAddress: "0xa5D55281917936818665c6cB87959b6a147D9306",
+	openseaAPI: "https://docs.opensea.io/reference/api-overview",
+    coingeckoAPI: "https://www.coingecko.com/en/api",
+    vaultEthAPI: "https://deep-index.moralis.io/api/v2/0xa5D55281917936818665c6cB87959b6a147D9306/balance?chain=eth",
+    vaultWEthAPI: "https://deep-index.moralis.io/api/v2/0xa5D55281917936818665c6cB87959b6a147D9306/erc20?chain=eth&token_addresses=0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    vaultUSDTAPI: "https://deep-index.moralis.io/api/v2/0xa5D55281917936818665c6cB87959b6a147D9306/erc20?chain=eth&token_addresses=0xdac17f958d2ee523a2206206994597c13d831ec7",
+    vaultUSDCAPI: "https://deep-index.moralis.io/api/v2/0xa5D55281917936818665c6cB87959b6a147D9306/erc20?chain=eth&token_addresses=0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    ethereumHistory: "https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=usd&days=1",
+    lizcoinHistory: "https://api.coingecko.com/api/v3/coins/ethereum/contract/0x767fe9edc9e0df98e07454847909b5e959d7ca0e/market_chart/?vs_currency=usd&days=1",
+    ethlizardAPI: "https://api.opensea.io/api/v1/collection/ethlizards/stats",
+    genesisAPI: "https://api.opensea.io/api/v1/collection/genesis-ethlizards-erc721/stats",
+    ethlizFloorHistoryAPI: "https://ethlizdb.herokuapp.com/ethLFloor/read-price",
+    genlizFloorHistoryAPI: "https://ethlizdb.herokuapp.com/genLFloor/read-price",
+    decimal: 10 ** 18,
+    investDataAPI: "https://ethlizdb.herokuapp.com/invest/read-invest",
+    socketProvider: "https://eth-rinkeby.alchemyapi.io/v2/YqOB93dffpUYdCs8hq_Ur5vvEFpUGZOp",
+    stakingStatus: false,
+    rewardStatus: false,
+    burnStatus: false,
+    airdropStatus: false
+}
